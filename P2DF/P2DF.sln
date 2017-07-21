@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2DF", "P2DF.csproj", "{E0234116-EE03-8A80-4165-6D38E2F3BA15}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New Unity Project 2", "New Unity Project 2.csproj", "{E0234116-EE03-8A80-4165-6D38E2F3BA15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
