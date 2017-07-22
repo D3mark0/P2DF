@@ -326,16 +326,11 @@ public class PlayerController : MonoBehaviour {
         {
             attack[1] = true;
             attackTimer[1] = 0;
-            if (distance > actDistance)
-            {
+
                 attackRate[1] = 0.6f;
                 anim.SetBool("punch-H", attack[1]);
-            }
-            else
-            {
-                attackRate[1] = 0.4f;
-                anim.SetBool("punch-HC", attack[1]);
-            }
+
+            
         }
         if (attack[1])
         {
@@ -356,16 +351,9 @@ public class PlayerController : MonoBehaviour {
         {
             attack[3] = true;
             attackTimer[3] = 0;
-            if (distance > actDistance)
-            {
                 attackRate[3] = 0.4f;
                 anim.SetBool("kick-L", attack[3]);
-            }
-            else
-            {
-                attackRate[3] = 0.2f;
-                anim.SetBool("kick-LC", attack[3]);
-            }
+
         }
         if (attack[3])
         {
@@ -386,16 +374,11 @@ public class PlayerController : MonoBehaviour {
         {
             attack[5] = true;
             attackTimer[5] = 0;
-            if (distance > actDistance)
-            {
+
                 attackRate[5] = 0.4f;
                 anim.SetBool("kick-H", attack[5]);
-            }
-            else
-            {
-                attackRate[5] = 0.4f;
-                anim.SetBool("kick-HC", attack[5]);
-            }
+
+
         }
         if (attack[5])
         {
